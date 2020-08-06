@@ -483,3 +483,11 @@ The expression will be evaluated to true, since NULL will be treated as any othe
 Note: JavaScript is case-sensitive and here we are using NULL instead of null.
 if it was null, the answer would be false because null and undefined are differet data types 
 
+What would following code return?
+
+console.log(typeof typeof 1);
+
+string
+
+typeof 1 will return "number" and typeof "number" will return string.
+
